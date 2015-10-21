@@ -1,64 +1,6 @@
-# simple series exercise using angular seed template.
+# Numeric Sequence Calculator using Angular seed template.
 
-This project is simple exercise to quickly use angular seed template for following.
-
-###Numeric Sequence Calculator
-
-Goal: As a USER
-I want to calculate some numeric sequences
-so that [TBD].
-
-####Acceptance Criteria:
-
-1. The software shall be webbased.
-2. Unit tests shall be written for each functional component of the
-software.
-3. An endtoend UI test shall be written for the software.
-4. The source shall be saved to a github repository.
-5. Any instructions required to run the software shall be included in a
-README.md file in the root of the repository.
-6. The repository URL shall be supplied to World Nomads Group
-
-User Stories
-
-####Story ID: S1 Instructions
-####Story:
-
-    As a USER I want to read some instructions on how to use the application so that it works first time for me.
-
-####Acceptance Criteria: 
-
-1. The instructions shall be short and to the point.
-
-####Story ID: S2 Enter Data
-####Story: 
-
-As a USER I want to enter a number and initiate the calculation of the numeric sequences so that I can view the results.
-
-####Acceptance Criteria:
- 
-1. Input shall accept positive, whole numbers only.
-2. Where an input is invalid an error message shall be displayed.
-
-
-####Story ID: S3 Results
-####Story: 
-
-As a USER I want to view the results of the numeric sequences
-so that [TBD].
-
-####Acceptance Criteria:
-
-The following numeric sequences shall be displayed:
-
-1. All numbers up to and including the number entered,
-2. All odd numbers up to and including the number entered,
-3. All even numbers up to and including the number entered,
-4. All numbers up to and including the number entered, except when,
-  * A number is a multiple of 3 output C, and when,
-  * A number is a multiple of 5 output E, and when,
-  * A number is a multiple of both 3 and 5 output Z,
-5. All fibonacci number up to and including the number entered.
+This project is simple exercise to quickly use angular seed template for displaying numeric Sequences (Odd, Even, Fibonacci)
 
 
 ### Prerequisites
@@ -215,6 +157,48 @@ http-server -a localhost -p 8000
 Alternatively, you can choose to configure your own webserver, such as apache or nginx. Just
 configure your server to serve the files under the `app/` directory.
 
+####Numeric Sequence Calculator
+
+User Stories
+
+####Story ID: S1 Instructions
+####Story:
+
+    As a USER I want to read some instructions on how to use the application so that it works first time for me.
+
+####Acceptance Criteria: 
+
+1. The instructions shall be short and to the point.
+
+####Story ID: S2 Enter Data
+####Story: 
+
+As a USER I want to enter a number and initiate the calculation of the numeric sequences so that I can view the results.
+
+####Acceptance Criteria:
+ 
+1. Input shall accept positive, whole numbers only.
+2. Where an input is invalid an error message shall be displayed.
+
+
+####Story ID: S3 Results
+####Story: 
+
+As a USER I want to view the results of the numeric sequences
+so that [TBD].
+
+####Acceptance Criteria:
+
+The following numeric sequences shall be displayed:
+
+1. All numbers up to and including the number entered,
+2. All odd numbers up to and including the number entered,
+3. All even numbers up to and including the number entered,
+4. All numbers up to and including the number entered, except when,
+  * A number is a multiple of 3 output C, and when,
+  * A number is a multiple of 5 output E, and when,
+  * A number is a multiple of both 3 and 5 output Z,
+5. All fibonacci number up to and including the number entered.
 
 ## Contact
 
