@@ -1,0 +1,21 @@
+html body {
+    min-height: 100%;
+    height: 100%;
+    margin: 0;
+   
+}
+.menu {  
+  border-bottom: 0.1em solid black;
+  margin: 1em 0 1em 0; 
+}
+header{
+  text-align: center;
+  margin-top: 1em;
+}
+footer {
+  margin: 0 auto;
+  border-top: 0.1em solid black;
+  width: 100%;
+}
+
+

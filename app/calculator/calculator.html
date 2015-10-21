@@ -1,0 +1,32 @@
+<div ng-controller="CalculatorController as vm">
+ <form name="sequenceForm" novalidate>
+	 <header class="row">        
+        <input type="text" placeholder="Enter a positive number" id="number" name="number" ng-model="vm.number"/>
+        <p ng-show="sequenceForm.number.$error.pattern" class="invalid-pattern help-block">Please enter positive number only</p>      
+   </header>
+ </form>
+    
+ <div id="series-container" ng-show="vm.visibile">
+  <div class="row" >
+    <p>All numbers upto {{vm.number}}</p>
+    <p>{{vm.wholeSeries}}</p>
+  </div>
+  <div class="row" >
+    <p>All even numbers upto {{vm.number}}</p>
+    <p>{{vm.evenSeries}}</p>
+  </div>
+  <div class="row">
+    <p>All odd numbers upto {{vm.number}}</p>
+    <p>{{vm.oddSeries}}</p>
+  </div>
+  
+  <div class="row">
+    <p>All numbers CEZ upto {{vm.number}}</p>
+    <p>{{vm.specialSeries}}</p>
+  </div>
+  <div class="row">
+    <p>All fibonacci numbers upto {{vm.number}}</p>
+    <p>{{vm.fibonacciSeries}}</p>
+  </div>
+ </div>
+</div>
