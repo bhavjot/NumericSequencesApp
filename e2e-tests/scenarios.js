@@ -68,10 +68,10 @@ describe('NumericSequencesApp', function() {
       
       beforeEach(function() {
         inputControl = element(by.css('input'))
-        inputControl.sendKeys('abc');             
+        inputControl.sendKeys('-123');             
       });   
       
-      it('it should show an help error message that only positive input is allowed.', function(){
+      it('it should show an help error message that only positive input is allowed.', function(){        
         expect(element(by.css('.help-block')).getText()).toContain('positive');    
       });
       
