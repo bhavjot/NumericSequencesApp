@@ -200,7 +200,7 @@ The following numeric sequences shall be displayed:
   * A number is a multiple of both 3 and 5 output Z,
 5. All fibonacci number up to and including the number entered.
 
-## Contact
+## Contact 
 
 For more information on AngularJS please check out http://angularjs.org/
 
