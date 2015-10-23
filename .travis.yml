@@ -13,11 +13,11 @@ script:
   - node_modules/.bin/karma start karma.conf.js --no-auto-watch --single-run --reporters=dots --browsers=Firefox
   - node_modules/.bin/protractor e2e-tests/protractor.conf.js --browser=firefox
 
-deploy:
-  provider: heroku
-  strategy: api
-  api_key:
-    secure: j0snrhvi4uWD85Zcs9vAZS9d4x0jJhu5pC3bBEnPAYQq39TaJ6HEXbLaBXdsNbuvUxpsy/s3Fmfx+84Xde3xincKxt9EvLKTjIMvUpR1Oirw1hATw8bnsVWu7JD6nmJlyYUD+benHyF4ACHjmazAYQZEZgBLna+K7HouWO/WZNzU3eH9fPze46/7VDwT2IYuv8WxZ7zjNBHu4jowysH3uZMmL40tpUSSTpF4H4A/RevLzSGrkLPEqiDdUpWevpfZ1BkomHMpXTEaibBpdPZfDcTRqGQB5CfjALuMRyUtKU/PSruvlCkAlPvuTQI1r1vdLrXWQDDGt14OK27P/IbAd+VdjobmSqH+jOtCNpZLaI0yIIDk/j+bbZzHx8Of0eT7R6S8Yx1rl18nFbBMlBXrlISuABYFUjVV4bj1ULdEFFXaHfuZTI7dKlOIH9bhED+7yTB/cf2Qo5F3fIvrvxFO38+lzdM2KgoXa0teoOWQheobuJXMcQgtMwQdYNla8kP+hZ+yhIPYA52OYp+xGK+BWH+JCvEHFmXCjmj0Crvn+t8YjM89/DG9KIXVx11X9mnIbhXF2weOqkv96ffGp6ZzpfqayX5+WaVgxEHy9R7YMmJ+3fNuw7g/tPDGiZUhmN5dCVGCHxMcgP+oBs7PQ7ZtgH24rVRBQFarX/C3xMTzSs0=
-  app: numericseriesapp
-  on:
-    repo: bhavjot/NumericSequencesApp
+#deploy:
+  #provider: heroku
+  #strategy: api
+  #api_key:
+    #secure: j0snrhvi4uWD85Zcs9vAZS9d4x0jJhu5pC3bBEnPAYQq39TaJ6HEXbLaBXdsNbuvUxpsy/s3Fmfx+84Xde3xincKxt9EvLKTjIMvUpR1Oirw1hATw8bnsVWu7JD6nmJlyYUD+benHyF4ACHjmazAYQZEZgBLna+K7HouWO/WZNzU3eH9fPze46/7VDwT2IYuv8WxZ7zjNBHu4jowysH3uZMmL40tpUSSTpF4H4A/RevLzSGrkLPEqiDdUpWevpfZ1BkomHMpXTEaibBpdPZfDcTRqGQB5CfjALuMRyUtKU/PSruvlCkAlPvuTQI1r1vdLrXWQDDGt14OK27P/IbAd+VdjobmSqH+jOtCNpZLaI0yIIDk/j+bbZzHx8Of0eT7R6S8Yx1rl18nFbBMlBXrlISuABYFUjVV4bj1ULdEFFXaHfuZTI7dKlOIH9bhED+7yTB/cf2Qo5F3fIvrvxFO38+lzdM2KgoXa0teoOWQheobuJXMcQgtMwQdYNla8kP+hZ+yhIPYA52OYp+xGK+BWH+JCvEHFmXCjmj0Crvn+t8YjM89/DG9KIXVx11X9mnIbhXF2weOqkv96ffGp6ZzpfqayX5+WaVgxEHy9R7YMmJ+3fNuw7g/tPDGiZUhmN5dCVGCHxMcgP+oBs7PQ7ZtgH24rVRBQFarX/C3xMTzSs0=
+  #app: numericseriesapp
+  #on:
+    #repo: bhavjot/NumericSequencesApp

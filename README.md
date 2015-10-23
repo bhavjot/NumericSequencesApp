@@ -1,6 +1,6 @@
 # Numeric Sequence Calculator using Angular seed template.
 
-This project is simple exercise to quickly use angular seed template for displaying numeric Sequences (Odd, Even, Fibonacci)
+This project [![Build Status](https://travis-ci.org/bhavjot/NumericSequencesApp.svg?branch=master)](https://travis-ci.org/bhavjot/NumericSequencesApp) is simple exercise to quickly use angular seed template for displaying numeric Sequences (Odd, Even, Fibonacci)
 
 
 ### Prerequisites
