@@ -42,13 +42,13 @@ angular.module('Calculator')
      var i = 0;
      while(i <= upto)
      {
-      if (i%3 == 0 && i%5 == 0){
+      if (i%3 === 0 && i%5 === 0){
         _specialSeries.push('Z');
       }
-      else if (i%3 == 0){
+      else if (i%3 === 0){
         _specialSeries.push('C');
       }
-      else if (i%5 == 0){
+      else if (i%5 === 0){
         _specialSeries.push('E');
       }
       else{

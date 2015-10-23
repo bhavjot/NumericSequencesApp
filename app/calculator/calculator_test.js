@@ -6,11 +6,11 @@ describe('Calulator module: ', function() {
   
   var vm, scope, calculatorService;
   calculatorService = {};
-  calculatorService.getWholeSeries = function(){ return [1,2, 3, 4, 5] };
-  calculatorService.getOddSeries = function(){ return [1, 3, 5] };
-  calculatorService.getEvenSeries = function(){ return [0, 2, 4] };
-  calculatorService.getSpecialSeries = function(){ return [1,'C','Z'] };
-  calculatorService.getFibonacciSeries = function(){ return [0, 1, 1, 2, 3, 5]};
+  calculatorService.getWholeSeries = function(){ return [1,2, 3, 4, 5]; };
+  calculatorService.getOddSeries = function(){ return [1, 3, 5]; };
+  calculatorService.getEvenSeries = function(){ return [0, 2, 4]; };
+  calculatorService.getSpecialSeries = function(){ return [1,'C','Z']; };
+  calculatorService.getFibonacciSeries = function(){ return [0, 1, 1, 2, 3, 5]; };
     
   
   describe('For Calculator controller', function(){

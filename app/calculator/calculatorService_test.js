@@ -9,8 +9,7 @@ describe('Calulator module: ', function() {
     _calculatorService = calculatorService;
   }]));
   
-  describe ('Checking series output:  ', function(){ 
-    debugger;
+  describe ('Checking series output:  ', function(){     
     it('All series should be correct', function () {
       expect(_calculatorService.getWholeSeries(10)).toEqual([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
     });
