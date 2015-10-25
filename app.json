@@ -1,0 +1,7 @@
+{
+  "name": "Nuumeris Series App",
+  "description": "A simple numberic series app",
+  "repository": "https://github.com/bhavjot/NumericSequencesApp",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
+}

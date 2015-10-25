@@ -1,8 +1,8 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "NumericSeriesApp",
+  "description": "A simple numeric series app",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/bhavjot/NumericSequencesApp",
   "license": "MIT",
   "private": true,
   "dependencies": {
