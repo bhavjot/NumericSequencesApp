@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/bhavjot/NumericSequencesApp.svg?branch=master)](https://travis-ci.org/bhavjot/NumericSequencesApp) 
 [![Coverage Status](https://coveralls.io/repos/bhavjot/NumericSequencesApp/badge.svg?branch=master&service=github)](https://coveralls.io/github/bhavjot/NumericSequencesApp?branch=master)
+https://david-dm.org/bhavjot/numericsequencesapp.svg
+__[Demo](https://numericseriesapp.herokuapp.com)__
 # Numeric Sequence Calculator using Angular seed template.
 
 This project is simple exercise to quickly use angular seed template for displaying numeric Sequences (Odd, Even, Fibonacci)
