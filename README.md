@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/bhavjot/NumericSequencesApp.svg?branch=master)](https://travis-ci.org/bhavjot/NumericSequencesApp) 
 [![Coverage Status](https://coveralls.io/repos/bhavjot/NumericSequencesApp/badge.svg?branch=master&service=github)](https://coveralls.io/github/bhavjot/NumericSequencesApp?branch=master)
-https://david-dm.org/bhavjot/numericsequencesapp.svg
+[![dependencies](https://david-dm.org/bhavjot/numericsequencesapp/status.svg)](https://david-dm.org/bhavjot/numericsequencesapp#info=dependencies)
+[![devDependencies](https://david-dm.org/bhavjot/numericsequencesapp/dev-status.svg)](https://david-dm.org/bhavjot/numericsequencesapp#info=devDependencies)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bhavjot/numericsequencesapp/tree/master)
 __[Demo](https://numericseriesapp.herokuapp.com)__
 # Numeric Sequence Calculator using Angular seed template.
